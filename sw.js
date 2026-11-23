@@ -1,6 +1,6 @@
 /* 10m 50m Rifle 3P Final CRO Timer – offline service worker. Change VERSION after every update of index.html */
 const PREFIX = "r3p-final-cro-";
-const VERSION = PREFIX + "v1";
+const VERSION = PREFIX + "v3";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./r3p-icon-180.png", "./r3p-icon-192.png", "./r3p-icon-512.png"];
 
 self.addEventListener("install", e => {
